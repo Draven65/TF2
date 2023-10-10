@@ -55,4 +55,5 @@ bash "${STEAMAPPDIR}/srcds_run" -game "${STEAMAPP}" -console -autoupdate \
                         -authkey "${SRCDS_WORKSHOP_AUTHKEY}" \
                         +servercfgfile "${SRCDS_CFG}" \
                         +mapcyclefile "${SRCDS_MAPCYCLE}" \
+			-unrestricted_maxplayers \
                         ${SERVER_SECURITY_FLAG}
